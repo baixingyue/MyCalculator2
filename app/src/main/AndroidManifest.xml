@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".unitchangeActivity" />
+        <activity android:name=".lengthchangeActivity" />
+        <activity android:name=".temperaturechangeActivity" />
+        <activity android:name=".energychangeActivity" />
+        <activity android:name=".anglechangeActivity" />
+        <activity android:name=".HexchangeActivity"></activity>
     </application>
 
 </manifest>

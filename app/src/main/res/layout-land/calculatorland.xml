@@ -6,12 +6,12 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="86dp"
-        android:text="New Text"
+        android:layout_height="54dp"
+        android:text=""
         android:id="@+id/textView_result_land"
         android:background="#FFEEE0"
         android:textColor="#FFC7C7"
-        android:textSize="60dp"
+        android:textSize="40dp"
         android:gravity="right|center"/>
 
     <GridLayout
@@ -66,8 +66,8 @@
         <Button
             android:layout_width="115dp"
             android:layout_height="50dp"
-            android:text="x²"
-            android:id="@+id/button_land_exp"
+            android:text="ln"
+            android:id="@+id/button_land_ln"
             android:layout_row="0"
             android:layout_column="4"
             android:textSize="25dp"
@@ -220,8 +220,8 @@
         <Button
             android:layout_width="115dp"
             android:layout_height="50dp"
-            android:text="π"
-            android:id="@+id/button_land_pi"
+            android:text="DRG"
+            android:id="@+id/button_land_DRG"
             android:layout_row="3"
             android:layout_column="0"
             android:textSize="25dp"
@@ -321,8 +321,8 @@
         <Button
             android:layout_width="115dp"
             android:layout_height="50dp"
-            android:text="%"
-            android:id="@+id/button_land_mod"
+            android:text="n!"
+            android:id="@+id/button_land_factorial"
             android:layout_row="4"
             android:layout_column="3"
             android:textSize="25dp"
@@ -339,6 +339,25 @@
             android:textSize="25dp"
             android:background="#f16d95"
             android:textColor="#F8ADC4"/>
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="提示"
+            android:id="@+id/textView"
+            android:layout_row="5"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="418dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="欢迎使用！"
+            android:id="@+id/tip"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_columnSpan="5" />
 
     </GridLayout>
 
