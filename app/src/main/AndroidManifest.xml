@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dell.mycalculator2">
+     
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/index6"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -15,13 +20,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".unitchangeActivity" />
-        <activity android:name=".lengthchangeActivity" />
-        <activity android:name=".temperaturechangeActivity" />
-        <activity android:name=".energychangeActivity" />
-        <activity android:name=".anglechangeActivity" />
-        <activity android:name=".HexchangeActivity"></activity>
+        <activity
+            android:name=".unitchangeActivity"
+            android:label="单位换算" />
+        <activity
+            android:name=".lengthchangeActivity"
+            android:label="长度换算" />
+        <activity
+            android:name=".temperaturechangeActivity"
+            android:label="温度换算" />
+        <activity
+            android:name=".energychangeActivity"
+            android:label="能量换算" />
+        <activity
+            android:name=".anglechangeActivity"
+            android:label="角度换算" />
+        <activity
+            android:name=".HexchangeActivity"
+            android:label="进制转换" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="帮助" />
+        <activity android:name=".DateCaluActivity"
+            android:label="日期计算器" />
+        <activity android:name=".CalendarActivity"
+            android:label="日历" />
     </application>
 
 </manifest>

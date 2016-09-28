@@ -75,6 +75,19 @@ public class unitchangeActivity extends AppCompatActivity {
                 startActivity(intent2);
                 finish();
                 break;
+            case R.id.action_settings3:
+                Intent intent3=new Intent(unitchangeActivity.this,HelpActivity.class);
+                startActivity(intent3);
+                finish();
+                break;
+            case R.id.action_settings4:
+                finish();
+                break;
+            case R.id.action_settings5:
+                Intent intent4=new Intent(unitchangeActivity.this,DateCaluActivity.class);
+                startActivity(intent4);
+                finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

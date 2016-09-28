@@ -12,14 +12,14 @@
         android:title="进制转换"
         app:showAsAction="never" />
     <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:title="单位换算"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_settings5"
         android:orderInCategory="100"
         android:title="日期计算"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings3"
-        android:orderInCategory="100"
-        android:title="帮助"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_settings4"

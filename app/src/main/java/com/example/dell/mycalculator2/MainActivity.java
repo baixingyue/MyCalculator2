@@ -1227,6 +1227,19 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent2=new Intent(MainActivity.this,HexchangeActivity.class);
                 startActivity(intent2);
                 break;
+            case R.id.action_settings3:
+                Intent intent3=new Intent(MainActivity.this,HelpActivity.class);
+                startActivity(intent3);
+                finish();
+                break;
+            case R.id.action_settings4:
+                finish();
+                break;
+            case R.id.action_settings5:
+                Intent intent4=new Intent(MainActivity.this,DateCaluActivity.class);
+                startActivity(intent4);
+                finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
