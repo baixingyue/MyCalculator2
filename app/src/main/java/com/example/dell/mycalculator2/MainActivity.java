@@ -1240,6 +1240,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent4);
                 finish();
                 break;
+            case R.id.action_settings6:
+                Intent intent5=new Intent(MainActivity.this,prefctcaluActivity.class);
+                startActivity(intent5);
+                finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

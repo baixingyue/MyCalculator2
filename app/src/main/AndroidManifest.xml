@@ -41,10 +41,13 @@
         <activity
             android:name=".HelpActivity"
             android:label="帮助" />
-        <activity android:name=".DateCaluActivity"
+        <activity
+            android:name=".DateCaluActivity"
             android:label="日期计算器" />
-        <activity android:name=".CalendarActivity"
+        <activity
+            android:name=".CalendarActivity"
             android:label="日历" />
+        <activity android:name=".prefctcaluActivity"></activity>
     </application>
 
 </manifest>

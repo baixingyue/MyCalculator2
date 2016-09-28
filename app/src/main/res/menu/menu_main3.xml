@@ -7,6 +7,11 @@
         android:title="计算器"
         app:showAsAction="never" />
     <item
+        android:id="@+id/action_settings6"
+        android:orderInCategory="100"
+        android:title="科学计算"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_settings2"
         android:orderInCategory="100"
         android:title="单位换算"

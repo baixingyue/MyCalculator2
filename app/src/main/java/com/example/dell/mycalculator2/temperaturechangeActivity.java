@@ -78,6 +78,11 @@ public class temperaturechangeActivity extends AppCompatActivity {
                 startActivity(intent4);
                 finish();
                 break;
+            case R.id.action_settings6:
+                Intent intent5=new Intent(temperaturechangeActivity.this,prefctcaluActivity.class);
+                startActivity(intent5);
+                finish();
+                break;
         }
 
         return super.onOptionsItemSelected(item);
