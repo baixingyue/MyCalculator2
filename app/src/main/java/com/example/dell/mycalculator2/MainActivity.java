@@ -1245,6 +1245,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent5);
                 finish();
                 break;
+            case R.id.action_settings7:
+                Intent intent6=new Intent(MainActivity.this,StateActivity.class);
+                startActivity(intent6);
+                finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

@@ -47,7 +47,8 @@
         <activity
             android:name=".CalendarActivity"
             android:label="日历" />
-        <activity android:name=".prefctcaluActivity"></activity>
+        <activity android:name=".prefctcaluActivity" />
+        <activity android:name=".StateActivity"></activity>
     </application>
 
 </manifest>
