@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/action_settings6"
-        android:orderInCategory="100"
-        android:title="科学计算"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings7"
-        android:orderInCategory="100"
-        android:title="有限状态机实现简单计算"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="单位换算"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings2"
-        android:orderInCategory="100"
-        android:title="进制转换"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings5"
-        android:orderInCategory="100"
-        android:title="日期计算"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings3"
-        android:orderInCategory="100"
-        android:title="帮助"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings4"
-        android:orderInCategory="100"
-        android:title="退出"
-        app:showAsAction="never" />
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_settings6"
+    android:orderInCategory="100"
+    android:title="科学计算"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_settings7"
+    android:orderInCategory="100"
+    android:title="有限状态机实现简单计算"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_settings"
+    android:orderInCategory="100"
+    android:title="单位换算"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_settings2"
+    android:orderInCategory="100"
+    android:title="进制转换"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_settings5"
+    android:orderInCategory="100"
+    android:title="日期计算"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_settings8"
+    android:orderInCategory="100"
+    android:title="绘图模式"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_settings3"
+    android:orderInCategory="100"
+    android:title="帮助"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_settings4"
+    android:orderInCategory="100"
+    android:title="退出"
+    app:showAsAction="never" />
 </menu>

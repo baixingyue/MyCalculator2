@@ -1203,7 +1203,7 @@ public class MainActivity extends AppCompatActivity {
             return Arrays.toString(num).replaceAll("[\\[\\], ]", "");
         }
     };
-    //菜单项切换到进制转换和单位换算
+    //选择菜单项切换到其他功能界面
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -1248,6 +1248,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_settings7:
                 Intent intent6=new Intent(MainActivity.this,StateActivity.class);
                 startActivity(intent6);
+                finish();
+                break;
+            case R.id.action_settings8:
+                Intent intent7=new Intent(MainActivity.this,normalActivity.class);
+                startActivity(intent7);
                 finish();
                 break;
         }

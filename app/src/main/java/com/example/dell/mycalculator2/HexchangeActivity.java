@@ -141,6 +141,16 @@ public class HexchangeActivity extends AppCompatActivity {
                 startActivity(intent5);
                 finish();
                 break;
+            case R.id.action_settings7:
+                Intent intent6=new Intent(HexchangeActivity.this,StateActivity.class);
+                startActivity(intent6);
+                finish();
+                break;
+            case R.id.action_settings8:
+                Intent intent7=new Intent(HexchangeActivity.this,normalActivity.class);
+                startActivity(intent7);
+                finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

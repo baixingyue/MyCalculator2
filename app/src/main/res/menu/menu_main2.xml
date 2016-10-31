@@ -12,6 +12,11 @@
         android:title="科学计算"
         app:showAsAction="never" />
     <item
+        android:id="@+id/action_settings7"
+        android:orderInCategory="100"
+        android:title="有限状态机实现简单计算"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_settings2"
         android:orderInCategory="100"
         android:title="进制转换"
@@ -20,6 +25,11 @@
         android:id="@+id/action_settings5"
         android:orderInCategory="100"
         android:title="日期计算"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings8"
+        android:orderInCategory="100"
+        android:title="绘图模式"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_settings3"

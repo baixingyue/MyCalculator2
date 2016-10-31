@@ -10,4 +10,8 @@
     <string name="title_activity_calendar">Simple Calendar</string>
     <string name="SetToday1">Set Today As Date 1</string>
     <string name="SetToday2">Set Today As Date 2</string>
+    <string name="title_activity_normal">normalActivity</string>
+    <string name="title_activity_hand_draw">HandDrawActivity</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
 </resources>

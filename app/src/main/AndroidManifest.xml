@@ -47,8 +47,17 @@
         <activity
             android:name=".CalendarActivity"
             android:label="日历" />
-        <activity android:name=".prefctcaluActivity" />
-        <activity android:name=".StateActivity"></activity>
+        <activity android:name=".prefctcaluActivity"
+            android:label="科学计算"/>
+        <activity android:name=".StateActivity"
+            android:label="有限状态机实现的简单计算"/>
+        <activity
+            android:name=".normalActivity"
+            android:label="绘图模式"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".HandDrawActivity"
+            android:label="双缓冲画板绘图"></activity>
     </application>
 
 </manifest>

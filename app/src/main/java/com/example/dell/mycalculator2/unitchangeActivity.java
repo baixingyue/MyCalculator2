@@ -93,6 +93,16 @@ public class unitchangeActivity extends AppCompatActivity {
                 startActivity(intent5);
                 finish();
                 break;
+            case R.id.action_settings7:
+                Intent intent6=new Intent(unitchangeActivity.this,StateActivity.class);
+                startActivity(intent6);
+                finish();
+                break;
+            case R.id.action_settings8:
+                Intent intent7=new Intent(unitchangeActivity.this,normalActivity.class);
+                startActivity(intent7);
+                finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

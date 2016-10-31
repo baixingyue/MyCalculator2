@@ -283,7 +283,7 @@ public class StateActivity extends AppCompatActivity {
     };
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_prefcalu, menu);
+        getMenuInflater().inflate(R.menu.menu_state, menu);
         return true;
     }
 
@@ -323,6 +323,11 @@ public class StateActivity extends AppCompatActivity {
             case R.id.action_settings6:
                 Intent intent5=new Intent(StateActivity.this,prefctcaluActivity.class);
                 startActivity(intent5);
+                finish();
+                break;
+            case R.id.action_settings8:
+                Intent intent7=new Intent(StateActivity.this,normalActivity.class);
+                startActivity(intent7);
                 finish();
                 break;
         }
